@@ -1,0 +1,1301 @@
+/* common css */
+body,p,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0;
+    padding: 0;
+}
+p,span,h1,h2,h3,h4,h5,h6{
+    color: #3A3A3A;
+}
+.no_padding{
+    padding: 0 !important;
+}
+.container_custom{
+    width: 1080px;
+    margin: 0 auto;
+}
+.col-md-12{
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+    transition: .5s;
+}
+ul{
+    list-style: none;
+}
+
+/* common css */
+.top{
+    background: #20b258 ;
+}
+.navbar_custom{}
+.navbar_custom img {
+    width: 230px;
+    height: 35px;
+}
+.navbar_custom ul li{
+    padding: 5px 15px;
+    transition: .4s;
+}
+.navbar_custom ul li:hover{
+    background: #20a950 ;
+}
+.navbar_custom ul li a{
+    font-size: 20px;
+    color: white !important;
+}
+.bottom{
+    background: #F6F6F6;
+}
+.bottom_menu{
+    padding: 0;
+}
+.bottom_menu ul li a {
+    font-size: 19px;
+    color: #595959 !important;
+    font-weight: 500;
+    transition: .4s;
+}
+.bottom_menu ul li{
+    padding: 3px 10px;
+    
+}
+.bottom_menu ul li:hover{
+    background: black;
+    
+}
+.bottom_menu ul li:hover a{
+    color: white !important;
+}
+
+.social_icon ul li {
+    padding: 3px ;
+}
+
+
+/* header end */
+
+
+.banner{
+    height: 350px;
+    background: linear-gradient(rgba(32,178,88,0.5),
+                                rgba(32,178,88,0.5)
+    ) , url(image/pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner_content{
+    margin-top: 100px;
+}
+.banner_content h1{
+    font-size: 42px;
+    color: white;
+    letter-spacing: 1px;
+}
+.banner_content p{
+    font-size: 21px;
+    color: white;
+    margin-top: 20px;
+}
+.menu2{
+    background: #F6F6F6;
+    height: 55px;
+}
+.menu_content ul {
+    margin-top: 12px;
+}
+.menu_content ul li{
+    display: inline-block;
+}
+.menu_content ul li a{
+    color: #999;
+    font-size: 20px;
+    padding: 9px 20px;
+}
+.menu_content ul li a:hover{
+    color: #393333;
+    background: #F2F2F2;
+}
+
+
+
+/* article section */
+section.article {
+    padding: 40px 0;
+}
+.single-content{
+    box-shadow: 0 0 25px rgb(236, 233, 233);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    transition: .6s;
+}
+.single-content:hover {
+    box-shadow: 0 0 30px rgba(214, 214, 214, 0.89);
+}
+
+.single-content a img{
+    margin-bottom: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.single-content h5 a {
+    color: #44B258;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 1px;
+}
+.single-content h4 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.single-content span{}
+img.hanna {
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+span a.hanna_a{
+    color: #44B258;
+}
+p.comment{
+    color: #999999;
+    padding-bottom: 25px;
+}
+.button_custom{
+    font-size: 20px;
+}
+
+/* article end */
+/* footer */
+footer{
+    background: #2C3027;
+    padding: 40px 0;
+}
+.common_use h4 {
+    color: white;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.twitter_icon{
+
+}
+.twitter_icon {
+    margin: 0 20px;
+}
+.common_use ul li a {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    transition: .5s;
+}
+.common_use ul li {
+    margin-bottom: 5px;
+}
+.second_footer h4{
+    margin-left: 45px;
+}
+.common_use ul li a:hover{
+    color: rgb(32,178,88);
+}
+.third_footer h4 {
+    margin-left: 100px;
+}
+.bottom_footer p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.bottom_footer img{
+    margin-bottom: 20px;
+}
+.common_use{
+    margin-bottom: 50px;
+}
+.copyright p{
+    color: white;
+    font-size: 15px;
+}
+.copyright a img{
+    margin-bottom: 10px;
+}
+.copyright p a{
+    color:white;
+    transition: .4s;
+}
+.copyright p a:hover{
+    color: #595142;
+}
+
+
+
+
+/* best moisturizers page start */
+/* banner */
+.moisturizers_banner_content img{
+    width: 100%;
+}
+
+/* banner */
+/* best mosturize section */
+.best_mosturizers_heade h2 {
+    font-size: 42px;
+    margin: 40px 0 20px 0;
+    font-weight: 700;
+}
+.best_mosturizers_heade p {
+    text-align: center;
+    background: #F4F4F4;
+    line-height: 1.7;
+    color: #333C39;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+/* best moisturizers page end */
+
+/* navigation start */
+.moisturizers_navigation_content h3 {
+    background: #52BF60;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+.moisturizers_navigation_content{
+    background: #F4F4F4;
+
+}
+/* navigation end */
+/* navigation lists */
+.navigation_lists {
+    background: #F4F4F4;
+}
+.list_one.common_list ul li a {
+    color: #52BF60;
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    transition: .5s;
+}
+.list_one.common_list ul li a:hover {
+    text-decoration: underline !important;
+    color:#4E7AD0;
+}
+.list_one.common_list ul li {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.list_one.common_list ul li:first-child a{
+    margin-top: 10px;
+}
+.list_one.common_list ul li:last-child a{
+    margin-bottom: 10px;
+}
+.list_one.common_list {
+    border-left: 1px dashed;
+    margin-top: 10px;
+}
+.border_list{
+    border: none !important;
+}
+.mosturizers_for_u h3 {
+    font-size: 25px;
+    margin: 25px 0;
+}
+.mosturizers_for_u p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+/* table section */
+.ranking_table_head h2 {
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+table.top_favourit {
+    width: 100%;
+}
+table.top_favourit thead tr {
+    background: #52BF60;
+}
+.top_favourit thead tr th p {
+    font-size: 20px;
+    margin-left: 8px;
+    color: #3A3A3A;
+}
+table.top_favourit td {
+    /* padding: 10px; */
+    text-align: center;
+    padding: 25px 0;
+}
+table.top_favourit tbody tr td {
+    border: 1px dotted #52BF60;
+}
+table.top_favourit tbody tr td p{
+    font-size: 19px;
+}
+
+table.top_favourit thead tr th{
+    border: 1px dotted rgb(255, 255, 255);
+}
+table.top_favourit tbody tr td a{
+    color: #52BF60;
+    font-size: 18px;
+}
+table.top_favourit tbody tr td a:hover{
+    color: #000000;
+}
+
+a.price_table_button {
+    background: #ff712c;
+    color: white !important;
+    padding: 6px 20px;
+    border-radius: 30px;
+}
+a.price_table_button:hover {
+    background-color: #FF8738;
+}
+
+table.top_favourit thead tr th:nth-child(1){
+    width: 120px;
+}
+table.top_favourit thead tr th:nth-child(2){
+    width: 240px;
+}
+table.top_favourit thead tr th:nth-child(3){
+    width: 180px;
+}
+table.top_favourit thead tr th:nth-child(4){
+    width: 350px;
+}
+.checked{
+    color:#FFB417;
+}
+
+
+/* table section */
+/* ecommerce */
+.ecommerce{
+    background: #F4F4F4;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.ecommerce_content h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.ecommerce_content p {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.single_ecommerce {
+    border: 2px solid #D8D8D8;
+    background: white;
+    padding-bottom: 60px;
+    margin: 30px 0 50px 0;
+    
+}
+.single_ecommerce p {
+    color: #333333;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.single_ecommerce img {
+    width: 75px;
+    display: block;
+    padding-bottom: 35px;
+}
+.single_ecommerce a {
+    background: #ff712c;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: white;
+    border-bottom: 2px solid #E25F20;
+    border-radius: 3px;
+}
+.single_ecommerce a:hover {
+    background-color: #FF8738;
+}
+
+
+
+.face_cream {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+img.face_cream {
+    width: 120px;
+}
+img.lavo {
+    width: 300px;
+}
+.click_for_more a {
+    color: #20b258;
+    font-size: 20px;
+    font-weight: 500;
+    /* margin-top: 10px; */
+}
+.click_for_more a:hover {
+    color: black;
+
+}
+img.la_poche {
+    width: 142px;
+}
+img.clinique {
+    width: 194px;
+}
+img.murad {
+    width: 125px;
+}
+img.st_ieves {
+    width: 180px;
+}
+img.cristiana {
+    width: 112px;
+}
+img.toulon {
+    width: 300px;
+}
+img.st_ieves {
+    width: 225px;
+}
+img.cetafil {
+    width: 112px;
+}
+img.neutregena {
+    width: 200px;
+}
+img.aveeno {
+    width: 155px;
+}
+img.jurlique {
+    width: 275px;
+}
+img.cleanclear {
+    width: 274px;
+}
+img.eraorganics1 {
+    width: 311px;
+}
+img.miravage {
+    width: 153px;
+}
+img.honeyskin {
+    width: 300px;
+}
+img.nutrogena1 {
+    width: 300px;
+}
+img.soft {
+    width: 311px;
+}
+img.eucerin {
+    width: 311px;
+}
+img.laura {
+    width: 300px;
+}
+img.efeclar {
+    width: 162px;
+}
+img.bareminarals {
+    width: 300px;
+}
+img.effeclarmat {
+    width: 218px;
+}
+img.cerave {
+    width: 311px;
+}
+img.burtsbees {
+    width: 300px;
+}
+img.olay1 {
+    width: 300px;
+}
+img.eucerin1 {
+    width: 311px;
+}
+img.la_pocheh1 {
+    width: 311px;
+}
+img.retinol {
+    width: 300px;
+}
+
+img.cila {
+    width: 311px;
+}
+
+img.geneva {
+    width: 196px;
+}
+img.nutrogena2 {
+    width: 300px;
+}
+img.body_merry {
+    width: 152px;
+}
+img.la_poche2 {
+    width: 66px;
+}
+/* ecommerce */
+
+
+/* tips */
+.tips_content h3 {
+    font-size: 30px;
+    color: #3A3A3A;
+    margin-bottom: 20px;
+}
+.tips_content.common_list_1 ul li {
+    margin-bottom: 20px;
+}
+.tips_content.common_list_1 ul li p {
+    font-size: 19px;
+    color: #3A3A3A;
+}
+.tips_content.common_list_1 h4 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #3A3A3A;
+    margin-bottom: 20px;
+}
+section.tips_section{
+    padding-bottom: 60px;
+}
+
+
+/* best mosturizers section end */
+
+/* archive section start */
+
+.archive_total{
+    padding: 20px 0;
+    overflow: hidden;
+}
+.left_side_text h2 {
+    margin: 15px 0;
+    color: #3A3A3A;
+    font-size: 25px;
+    font-weight: 700;
+}
+.left_side_text h4 {
+    font-size: 25px !important;
+    text-align: center;
+    margin: 20px 0 !important;
+}
+.archive_text_list ul li {
+    list-style: disc;
+    margin-bottom: 5px !important;
+}
+
+.archive_text_list ul {
+    margin: 20px 0 20px 50px;
+    
+}
+.left_side_text h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #403A3A;
+    margin: 25px 0;
+}
+a.archive_list_link {
+    color: #20b258;
+}
+a.archive_list_link:hover {
+    color: black;
+}
+form.search_form_archive input[type="text"] {
+    height: 45px;
+    width: 310px;
+    outline: none;
+    padding: 0 0 0 10px;
+    background: #FAFAFA;
+    border: 1px solid black;
+}
+input[type="text"]::placeholder {
+    font-size: 20px !important;
+}
+
+.right_side_bar h4 {
+    color: black;
+}
+.right_sidebar_contact {
+    margin: 60px 0 0 67px;
+}
+.right_sidebar_post h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 20px
+}
+.right_sidebar_post {
+    margin-top: 50px;
+}
+.archive_post_thumbnail img {
+    width: 100px;
+    height: 80px;
+}
+.archive_post_section {
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.single_archive_post{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e5e3e3;
+    padding: 5px;
+}
+.single_archive_post:hover {
+    background: #FCFCF4;
+    cursor: pointer;
+}
+.post_title a {
+    color: #4A4444;
+    font-weight: 700;
+    margin-right: 14px;
+}
+.pienterest_title h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+/* .single_post a h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px
+}
+.single_post img {
+    width: 100px;
+    height: 80px;
+} */
+.archive_recent_article {
+    padding: 30px 0;
+}
+.archive_recent_article h2 {
+    font-size: 35px;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+}
+/* pagination */
+.pagination {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    color: #4CAF50;
+  }
+  /* .pagination a {
+      color: black;
+  } */
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  .pagination a:hover:not(.active) {
+      color: black;
+    }
+  
+/* pagination */
+
+/* archive section end */
+
+
+/* about section start */
+.about_header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #3A3A3A;
+    margin: 40px 0 20px 0;
+    text-align: center ;
+}
+.about_header p {
+    font-size: 20px;
+    color: #3A3A3A;
+    margin: 0 0 25px 0;
+}
+.about_header_list ul {
+    list-style: disc;
+}
+.about_header_list ul li p {
+    font-size: 20px;
+}
+.about_header_list ul li {
+    margin-bottom: 10px;
+}
+.about_header_list {
+    margin-bottom: 35px;
+}
+.about_connect_with_us h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #3A3A3A;
+    margin: 20px 0;
+}
+.about_connect_with_us ul li p {
+    font-size: 20px;
+}
+.about_connect_with_us ul li {
+    margin-bottom: 25px;
+}
+.about_comment_section h4 {
+    font-size: 27px;
+    font-weight: 400;
+    color: #575757;
+    margin: 30px 0;
+}
+.about_single_comment h6 {
+    display: inline-block;
+}
+.about_single_comment {
+    display: inline-flex;
+    padding: 20px 0;
+}
+.comment_pic img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.comment_author h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.comment_author p a {
+    color: #666666 !important;
+}
+.comment_author p a:hover {
+    color:blue !important;
+}
+.alice_comment p {
+    font-size: 19px;
+    padding: 30px;
+    border: 1px solid #eee8e8;
+}
+.admin_comment {
+    margin-left:30px;
+}
+.admin_comment_title h6 a {
+    color: #20b258 !important;
+}
+.admin_comment_title h6 a:hover {
+    color: black !important;
+}
+.admins_reply {
+    border-left: 1px solid #eee8e8;
+    border-bottom: 1px solid #eee8e8;
+    margin-left: 30px;
+    padding: 10px 0 30px 0;
+}
+.common_about_comment {
+    margin-top: 40px;
+}
+.post_comment_section {
+    padding: 60px 0;
+}
+.post_comment_section h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #3A3A3A;
+    margin-bottom: 20px;
+}
+#commenttextarea{
+    color: #666666;
+    background-color: #fafafa;
+    border-color: #cccccc;
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input#commentform {
+    display: block;
+    margin-bottom: 10px;
+    color: #666666;
+    background-color: #fafafa;
+    border: 1px solid #cccccc;
+    width: 370px;
+    height: 50px;
+    padding: 15px;
+}
+.website{
+    padding-bottom: 20px;
+}
+.post_comment_section a {
+    background: #666666;
+    color: white;
+    padding: 10px 20px;
+}
+.post_comment_section a:hover {
+    background: #3F3F3F;
+}
+
+.post_comment_section form {
+    padding: 0 0 10px 0;
+}
+/* dry skin mosturizers */
+.dry_skin_full{
+    padding: 30px 0;
+}
+.dry_skin_left_content h2 {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.dry_skin_left_content span img {
+    border-radius: 50%;
+}
+.dry_skin_left_content span a {
+    color: #20B258;
+}
+.dry_skin_left_content span {
+    color: #888888;
+}
+span.hanna_do_author {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d9d9d9 !important;
+    display: block;
+}
+.moisturizers_banner_img {
+    padding: 20px 0;
+}
+.moisturizers_banner_img img {
+    width: 95%;
+}
+.dry_skin_banner_details p {
+    font-size: 19px;
+    line-height: 1.7;
+    padding: 10px 0;
+}
+.dry_skin_left_content h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.dry_skin_left_content ul li p {
+    font-size: 19px;
+}
+.dry_skin_left_content ul li {
+    margin-bottom: 25px;
+}
+/* table section */
+.dry_skin_table table {
+    width: 100%;
+}
+.dry_skin_table {
+    padding: 15px 0;
+}
+.dry_skin_table table thead tr {
+    background: #52BF60;
+}
+.dry_skin_table table thead tr th {
+    border: 1px dotted white;
+}
+.dry_skin_table table thead tr th:nth-child(1){
+    width: 15%;
+}
+.dry_skin_table table thead tr th:nth-child(2){
+    width: 25%;
+}
+.dry_skin_table table tr th:nth-child(3){
+    width: 20%;
+}
+.dry_skin_table table tr th:nth-child(4){
+    width: 20%;
+}
+.dry_skin_table table tr th:nth-child(5){
+    width: 30%;
+}
+.dry_skin_table table thead tr th p {
+    font-size: 18px;
+    margin-left: 5px;
+}
+.dry_skin_table tbody tr td img {
+    width: 55%;
+    box-shadow: 0 0 5px black;
+    height: 120px;
+}
+.dry_skin_table table tr td {
+    padding: 20px 0;
+    text-align: center;
+}
+a.dry_skin_product_name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+}
+a.dry_skin_table_button {
+    padding: 8px 17px;
+    border-radius: 2px;
+}
+.dry_skin_table table tbody tr td {
+    border: 1px dotted #52BF60;
+}
+.dry_skin_table table tr td h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+/* table section */
+
+.single_product_details_dry_skin {
+    background: #F9F9F9;
+    padding-bottom: 20px;
+}
+.product_details_list h2 {
+    padding: 0 0 15px 0;
+}
+.product_details_list a.archive_list_link {
+    font-size: 27px;
+}
+.best_dry_skin_image {
+    margin-top: 30px;
+}
+.best_dry_skin_image img {
+    width: 370px;
+    /* position: relative; */
+    /* bottom: 780px;
+    left: 389px; */
+    box-shadow: 0 0 5px gainsboro;
+    border: 10px solid white;
+}
+.product_details_list ul li p {
+    font-size: 19px;
+}
+.product_details_list ul li {
+    margin-bottom: 20px;
+}
+.product_details_list ul li:first-child {
+    margin-top: 20px;
+}
+a.link_list_common {
+    color: #52BF60;
+}
+.like_unlike_box {
+    display: flex;
+    padding: 30px 0;
+}
+
+.like_unlike_box h5 {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.liked {
+    border: 2px solid #52BF60;
+    margin-left: 15px;
+    padding: 20px;
+    width: 100%;
+}
+.didnt_liked {
+    border: 2px solid #E60E0E;
+    background: #FFF7F7;
+    margin-left: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.like_unlike_box ul li span {
+    font-size: 20px;
+}
+.fa-check {
+    color: #52BF60;
+}
+.fa-exclamation-triangle {
+    color: #E5372B;
+}
+.like_unlike_box ul li {
+    margin-bottom: 10px;
+}
+.check_current_price a {
+    display: block;
+    background: #e8720d;
+    padding: 15px 0;
+    color: white;
+    font-size: 25px;
+}
+.check_current_price a:hover {
+    background: #ff7d07;
+}
+.oudside_details ul {
+    margin-left: 30px;
+}
+a.common_link{
+    color: #7BC542;
+}
+.best_drug_store_image {
+    margin-top: 50px;
+}
+.best_drugstore_for_dry_skin {
+    background: white;
+    margin-top: 5px;
+}
+.Best_Moisturizer_For_Dry_Aging {
+    background: white;
+}
+.Extremely_Dry_Skin img {
+    /* width: 200px; */
+    margin-top: 20px;
+}
+h2.reviews_and_comparisons {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.reviews_and_comparisons table thead tr th {
+    border: 1px solid white;
+}
+.reviews_and_comparisons table thead tr {
+    background: #52BF60;
+    height: 100px;
+}
+.reviews_and_comparisons table thead tr th:nth-child(1){
+    width: 18%;
+}
+.reviews_and_comparisons table thead tr th:nth-child(1) p{
+    font-size: 16px !important;
+}
+
+.reviews_and_comparisons table thead tr th:nth-child(2){
+    width: 16%;
+    background: #E55A50;
+}
+.reviews_and_comparisons table thead tr th:nth-child(3){
+    width: 17%;
+}
+.reviews_and_comparisons table tr th:nth-child(4){
+    width: 16%;
+}
+.reviews_and_comparisons table tr th:nth-child(5){
+    width: 17%;
+
+}
+.reviews_and_comparisons table tr th:nth-child(6){
+    width: 16%;
+    
+}
+.reviews_and_comparisons table thead tr th p {
+    color: white;
+    font-size: 18px;
+    line-height: 1;
+}
+.reviews_and_comparisons table thead tr th {
+    padding: 10px 0 10px 2px;
+    margin-left: 0px;
+}
+.reviews_and_comparisons tbody tr td img {
+    box-shadow: 0 0 5px grey;
+    border: 1px solid #20B258;
+    margin: 10px 5px;
+}
+.reviews_and_comparisons tbody tr td {
+    border: 1px solid #20B258;
+}
+.reviews_and_comparisons tbody tr td h6 {
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+.reviews_and_comparisons tbody tr td h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.reviews_and_comparisons tbody tr td a {
+    font-size: 18px;
+    font-weight: 700;
+}
+.reviews_and_comparisons tbody tr td p {
+    font-size: 19px;
+    line-height: 1;
+    padding: 5px 0;
+}
+.reviews_and_comparisons table tr:nth-child(8) {
+    background: #52BF60;
+    height: 100px;
+}
+.reviews_and_comparisons table tr:nth-child(8) td {
+    border: 1px solid white;
+}
+
+.reviews_and_comparisons tbody tr td h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.reviews_and_comparisons tbody tr td a.table_link_button {
+    background: #e8720d;
+    color: white;
+    padding: 7px 20px;
+    border-bottom: 4px solid #E25F20;
+    border-radius: 2px;
+}
+.reviews_and_comparisons tbody tr td a.table_link_button:hover {
+    background: #ff7d07;
+}
+.reviews_and_comparisons table tbody tr td:nth-child(2) {
+    background: #FFF2CE;
+}
+.reviews_and_comparisons table tr:nth-child(8) td {
+    background: #52BF60 !important;
+}
+.the_reasons ul li {
+    margin-bottom: 20px;
+}
+.the_reasons ul li p {
+    font-size: 20px;
+}
+.the_reasons ul {
+    margin-top: 30px;
+}
+.the_reasons ul li p a:hover {
+    color: black;
+}
+.the_reasons h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.long_button {
+    background: #d76a01;
+    border-radius: 3px;
+    padding: 5px 0;
+}
+.long_button:hover {
+    background: #FF8738;
+    cursor: pointer;
+}
+
+.long_button a {
+    font-size: 26px;
+    color: white;
+}
+img.best_moisturizers_img {
+    padding: 30px 0;
+}
+
+/* social button */
+.social_icon_width a p {
+    display: inline;
+    padding: 0 20px;
+    color: white;
+    transition: .4s;
+    display: none;
+}
+.social_icon_width {
+    background: #CD2029;
+    width: 110px;
+}
+.social_icon_width a {
+    color: white;
+}
+.social_icon_width {
+    background: #CD2029;
+    width: 180px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    transition: .3s;
+    display: inline-block;
+    margin-right: 20px;
+}
+.social_icon_width a span {
+    color: white;
+}
+.social_icon_width:hover a p {
+    display:inline-block;
+    transition: .5s;
+}
+
+.social_icon_width:hover {
+    cursor: pointer;
+}
+.social_buttons {
+    margin-left: 65px;
+    display: flex;
+}
+.button_facebook {
+    background: #3A589E;
+}
+.button_twitter {
+    background: #429CD6;
+}
+.share span p {
+    font-size: 10px;
+    font-weight: 500;
+}
+.banner_social{
+    margin: 0;
+}
+.banner_social_width{
+    width: 205px;
+}
+.banner_social_width:hover{
+    width: 230px;
+}
+.hanna_info {
+    background: #F3F3F3;
+    padding: 25px;
+    margin: 40px 0;
+}
+.hanna_info a {
+    font-size: 22px;
+    font-weight: 500;
+}
+.hanna_info img {
+    border-radius: 50%;
+}
+.hanna_info p {
+    font-size: 19px;
+}
+.hanna_slide a{
+    font-size: 19px;
+}
+.hanna_slide {
+    margin-bottom: 50px;
+}
+.hanna_slide a:hover p{
+    color: #1E73BE !important;
+}
+.comment_section_mosturizers_dry_skin h4 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+/* social button */
+.dry_skin_post_litle a {
+    color: #4A4444;
+    font-weight: 700;
+    margin-right: 14px;
+    font-size: 19px;
+}
+.dry_skin_archive_post {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e5e3e3;
+    padding: 5px;
+    width: 450px;
+}
+.archive_post_thumbnail img {
+    width: 150px;
+    height: 90px;
+    float: right;
+}
+/* dry skin mosturizers */

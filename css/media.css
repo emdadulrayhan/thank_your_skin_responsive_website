@@ -1,0 +1,191 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .banner_content h1 {
+        font-size: 30px !important;
+        letter-spacing: 0px;
+        font-weight: 700;
+    }
+    .banner_content p {
+        font-size: 18px;
+    }
+    .navbar_custom img {
+        width: 200px;
+    }
+    .banner_content {
+        margin-top: 60px;
+    }
+    .menu2 {
+        height: 110px !important;
+    }
+}
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .banner_content h1 {
+        font-size: 33px;
+        letter-spacing: 1px;
+    }
+    .banner_content p {
+        font-size: 16px;
+        margin: 20px 40px 0 40px;
+        font-weight: 600;
+    }
+    form.search_form_archive input[type="text"] {
+        height: 45px;
+        width: 100%;
+        outline: none;
+        padding: 0 0 0 10px;
+        background: #FAFAFA;
+        border: 1px solid black;
+        display: block;
+    }
+    .right_sidebar_contact {
+        margin: 60px 60px 0 67px;
+    }
+    .archive_post_thumbnail img {
+        width: 150px;
+        height: 90px;
+    }
+    .archive_post_section {
+        width: 100%;
+    }
+    .post_title a {
+        font-size: 18px;
+    }
+    .archive_recent_article h2 {
+        font-size: 27px;
+    }
+    .about_header h1 {
+        font-size: 30px;
+    }
+    .about_header p {
+        margin: 0 5px 25px 5px;
+    }
+    .about_header_list ul {
+        margin: 0 30px;
+    }
+    .about_connect_with_us ul {
+        margin: 0 20px;
+    }
+    .about_connect_with_us ul li p {
+        font-size: 18px;
+    }
+    .about_comment_section h4 {
+        margin: 30px 5px;
+    }
+    .about_single_comment {
+        margin-left: 5px;
+    }
+    .alice_comment p {
+        margin: 0 10px;
+    }
+    .post_comment_section {
+        margin: 0 10px;
+    }
+    .click_for_more a {
+        font-size: 17px;
+    }
+    .list_one.common_list {
+        border: none;
+    }
+    .right_sidebar_post h2 {
+        margin-left: 20px;
+    }
+    .post_comment_section {
+        margin-left: 30px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .menu2 {
+        background: #F6F6F6;
+        height: 75px;
+    }
+    .banner_content p {
+        font-size: 16px;
+        color: white;
+        margin: 20px 40px 0 40px;
+        font-weight: 500;
+    }
+    
+    .bottom_menu ul {
+        margin-left: 320px;
+    }
+    .navbar_custom_icon {
+        margin-left: 360px;
+    }
+    table.top_favourit thead tr th:nth-child(4) {
+        width: 200px;
+    }
+    table.top_favourit thead tr th:nth-child(5) {
+        width: 250px;
+
+    }
+    .single_ecommerce a {
+        padding: 10px 15px;
+        font-size: 16px;
+
+    }
+    .dry_skin_post_section {
+        width: 100%;
+    }
+    .dry_skin_post_thumbnail img {
+        width: 140px;
+        height: 90px;
+        float: right;
+    }
+    .post_title a {
+        color: #4A4444;
+        font-weight: 700;
+        margin: 5px 10px 0 10px;
+        float: left;
+        font-size: 18px;
+    }
+    .archive_post_section {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .archive_post_thumbnail img {
+        width: 150px;
+        height: 100px;
+        float: right;
+    }
+    .tips_content.common_list_1 ul li p {
+        margin-left: 10px;
+    }
+    .tips_content.common_list_1 h4 {
+        margin-left: 10px;
+    }
+    .tips_content h3 {
+        margin-left: 10px;
+    }
+    .moisturizers_banner_content img {
+        width: 104%;
+    }
+    .best_mosturizers_heade h2 {
+        margin-left: 10px;
+    }
+    .mosturizers_for_u p {
+        margin-left: 10px;
+    }
+    .mosturizers_for_u h3 {
+        margin-left: 10px;
+    }
+    .dry_skin_archive_post {
+        width: 100%;
+    }
+    .post_title a {
+        font-size: 20px;
+    }
+    form.search_form_archive.search_form_best_dry_skin input {
+        width: 100%;
+    }
+    form.search_form_archive input[type="text"] {
+        width: 100%;
+    }
+}
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
